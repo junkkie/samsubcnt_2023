@@ -11,10 +11,10 @@
   .foot_inner>ul>li:nth-of-type(4)>ul>li{margin: 20px 0; text-align: center;}
   .foot_inner>ul>li:nth-of-type(4)>ul>li>a{color: #fff; font-weight: normal; font-size: 0.85em;}
 
-  .foot_inner>p{color: rgba(255, 255, 255, 0.3); font-weight: 300; font-size: 0.85em; margin: 20px 60px; letter-spacing: -0.5px;}
+  .foot_inner>p{color: rgba(255, 255, 255, 0.7); font-weight: 300; font-size: 0.85em; margin: 20px 60px; letter-spacing: -0.5px;}
 
   .foot_list>a{display: block; position: absolute; right: 60px; bottom: 30px; padding: 10px 30px; color: #fff; font-size: 0.9em; font-weight: normal;
-    border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 10px;}
+    border: 1px solid #ccc; border-radius: 10px;}
   .foot_list>a.on{border-radius: 0 0 10px 10px;}
   .foot_list>a>i{margin-left: 10px;}
 
@@ -24,7 +24,7 @@
   .foot_list>div::-webkit-scrollbar{width: 6px; height: 0; border-radius: 0 10px 0 0;}
   .foot_list>div::-webkit-scrollbar-thumb{background: #fff; border-radius: 10px;}
   .foot_list>div::-webkit-scrollbar-track{color: #121212;}
-  .foot_list>div>ul>li{font-size: 0.7em; font-weight: normal; color: #ccc; margin: 10px 0;}
+  .foot_list>div>ul>li{font-size: 0.7em; font-weight: normal; color: #eee; margin: 10px 0;}
   .foot_list>div>ul>li>ul>li{margin: 10px 0px; color: #fff;}
   .foot_list>div>ul>li>ul>li>a{font-size: 13px; font-weight: 500; color: #fff;}
 }
@@ -42,10 +42,10 @@
   .foot_inner>ul>li:nth-of-type(4)>ul>li{margin: 20px 0; text-align: center;}
   .foot_inner>ul>li:nth-of-type(4)>ul>li>a{color: #fff; font-weight: normal; font-size: 0.85em;}
 
-  .foot_inner>p{color: rgba(255, 255, 255, 0.3); font-weight: 300; font-size: 0.85em; margin: 20px 60px; letter-spacing: -0.5px;}
+  .foot_inner>p{color: rgba(255, 255, 255, 0.7); font-weight: 300; font-size: 0.85em; margin: 20px 60px; letter-spacing: -0.5px;}
 
   .foot_list>a{display: block; position: absolute; right: 60px; bottom: 30px; padding: 10px 30px; color: #fff; font-size: 0.9em; font-weight: normal;
-    border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 10px;}
+    border: 1px solid #ccc); border-radius: 10px;}
   .foot_list>a.on{border-radius: 0 0 10px 10px;}
   .foot_list>a>i{margin-left: 10px;}
 
@@ -55,7 +55,7 @@
   .foot_list>div::-webkit-scrollbar{width: 6px; height: 0; border-radius: 0 10px 0 0;}
   .foot_list>div::-webkit-scrollbar-thumb{background: #fff; border-radius: 10px;}
   .foot_list>div::-webkit-scrollbar-track{color: #121212;}
-  .foot_list>div>ul>li{font-size: 0.7em; font-weight: normal; color: #ccc; margin: 10px 0;}
+  .foot_list>div>ul>li{font-size: 0.7em; font-weight: normal; color: #eee; margin: 10px 0;}
   .foot_list>div>ul>li>ul>li{margin: 10px 0px; color: #fff;}
   .foot_list>div>ul>li>ul>li>a{font-size: 13px; font-weight: 500; color: #fff;}
 }
@@ -73,10 +73,10 @@
   .foot_inner>ul>li:nth-of-type(4)>ul>li{margin: 20px 0; text-align: center;}
   .foot_inner>ul>li:nth-of-type(4)>ul>li>a{color: #fff; font-weight: normal; font-size: 0.85em;}
 
-  .foot_inner>p{color: rgba(255, 255, 255, 0.3); font-weight: 300; font-size: 0.85em; margin: 20px 60px; letter-spacing: -0.5px;}
+  .foot_inner>p{color: rgba(255, 255, 255, 0.7); font-weight: 300; font-size: 0.85em; margin: 20px 60px; letter-spacing: -0.5px;}
 
   .foot_list>a{display: block; width: 164.98px; margin-left: 7.5vw; padding: 10px 30px; box-sizing: border-box; color: #fff; font-size: 0.9em; font-weight: normal;
-    border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 10px;}
+    border: 1px solid #ccc; border-radius: 10px;}
   .foot_list>a.on{border-radius: 0 0 10px 10px;}
   .foot_list>a>i{margin-left: 10px;}
 
@@ -86,7 +86,7 @@
   .foot_list>div::-webkit-scrollbar{width: 6px; height: 0; border-radius: 0 10px 0 0;}
   .foot_list>div::-webkit-scrollbar-thumb{background: #fff; border-radius: 10px;}
   .foot_list>div::-webkit-scrollbar-track{color: #121212;}
-  .foot_list>div>ul>li{font-size: 0.7em; font-weight: normal; color: #ccc; margin: 10px 0;}
+  .foot_list>div>ul>li{font-size: 0.7em; font-weight: normal; color: #eee; margin: 10px 0;}
   .foot_list>div>ul>li>ul>li{margin: 10px 0px; color: #fff;}
   .foot_list>div>ul>li>ul>li>a{font-size: 13px; font-weight: 500; color: #fff;}
 }

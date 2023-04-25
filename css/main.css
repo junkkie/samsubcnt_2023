@@ -197,7 +197,7 @@ html{font-size: 0.85vw;}
 .network>a>i{transition: transform .3s ease;}
 .network>a:hover{color: #fff; background: #1428a0;}
 .network>a:hover>i{transform: translateX(0.3vw);}
-.network>p{color: #888; font-weight: normal; float: right; margin: 0.5vw 1vw;}
+.network>p{color: #555; font-weight: normal; float: right; margin: 0.5vw 1vw;}
 .network_inner{width: 100%; height: 38.5vw; background: url(../img/network-bg.jpg) no-repeat 0 0; background-size: cover; border-radius: 15px;}
 
 .network_content{position: absolute; bottom: 6vw; left: 15vw; width: 26vw; height: 26vw;}
@@ -211,7 +211,7 @@ html{font-size: 0.85vw;}
 .network_content2{position: absolute; right: 5vw; bottom: 4vw; width: 28.1vw; overflow: hidden;}
 .network_content2>p{color: #fff; text-align: center; font-size: 1.2rem; font-weight: 500; line-height: 2vw; margin-bottom: 2vw;}
 .network_content2>ul:first-of-type{display: flex; justify-content: space-around; padding: 1vw; margin: 1vw 0; border-radius: 15px; background-color: #1428a0;}
-.network_content2>ul:first-of-type>li>a{position: relative; color: rgba(255, 255, 255, 0.3); font-weight: normal; font-size: 1.2rem;}
+.network_content2>ul:first-of-type>li>a{position: relative; color: rgba(235, 235, 235, 0.92); font-weight: normal; font-size: 1.2rem;}
 .network_content2>ul:first-of-type>li>a::after{content: ""; position: absolute; left: 0; bottom: -1vw; width: 0; height: 3px;
   background: #fff; opacity: 0; transition: all .3s ease 0s;}
 
@@ -435,7 +435,7 @@ html{font-size: 1vw;}
 .network>a>i{transition: transform .3s ease;}
 .network>a:hover{color: #fff; background: #1428a0;}
 .network>a:hover>i{transform: translateX(0.3vw);}
-.network>p{color: #888; font-weight: normal; float: right; margin: 0.5vw 1vw;}
+.network>p{color: #555; font-weight: normal; float: right; margin: 0.5vw 1vw;}
 .network_inner{width: 100%; height: 38.5vw; background: url(../img/network-bg.jpg) no-repeat 0 0; background-size: cover; border-radius: 15px;}
 
 .network_content{position: absolute; bottom: 6vw; left: 15vw; width: 26vw; height: 26vw;}
@@ -449,7 +449,7 @@ html{font-size: 1vw;}
 .network_content2{position: absolute; right: 5vw; bottom: 4vw; width: 28.1vw; overflow: hidden;}
 .network_content2>p{color: #fff; text-align: center; font-size: 1.2rem; font-weight: 500; line-height: 2vw; margin-bottom: 2vw;}
 .network_content2>ul:first-of-type{display: flex; justify-content: space-around; padding: 1vw; margin: 1vw 0; border-radius: 15px; background-color: #1428a0;}
-.network_content2>ul:first-of-type>li>a{position: relative; color: rgba(255, 255, 255, 0.3); font-weight: normal; font-size: 1.2rem;}
+.network_content2>ul:first-of-type>li>a{position: relative; color: rgba(235, 235, 235, 0.92); font-weight: normal; font-size: 1.2rem;}
 .network_content2>ul:first-of-type>li>a::after{content: ""; position: absolute; left: 0; bottom: -1vw; width: 0; height: 3px;
   background: #fff; opacity: 0; transition: all .3s ease 0s;}
 
@@ -651,7 +651,7 @@ html{font-size: 0.85vw;}
 .network>a>i{transition: transform .3s ease;}
 .network>a:hover{color: #fff; background: #1428a0;}
 .network>a:hover>i{transform: translateX(0.3vw);}
-.network>p{color: #888; font-weight: normal; float: right; margin: 0.5vw 1vw;}
+.network>p{color: #555; font-weight: normal; float: right; margin: 0.5vw 1vw;}
 .network_inner{width: 100%; height: 100vw; background: url(../img/network-bg.jpg) no-repeat 0 0; background-size: cover; border-radius: 15px;}
 
 .network_content{position: absolute; top: 13vw; left: 50%; transform: translateX(-50%); width: 26vw; height: 26vw;}
@@ -665,7 +665,7 @@ html{font-size: 0.85vw;}
 .network_content2{position: absolute; left: 50%; bottom: 4vw; transform: translateX(-50%); width: 88vw; height: 55vw; overflow: hidden;}
 .network_content2>p{color: #fff; text-align: center; font-size: 3rem; font-weight: 500; line-height: 1.5; margin-bottom: 2vw;}
 .network_content2>ul:first-of-type{display: flex; padding: 1.5vw 3vw; margin: 1vw 0; border-radius: 10px; background-color: #1428a0;}
-.network_content2>ul:first-of-type>li>a{position: relative; margin-right: 3vw; color: rgba(255, 255, 255, 0.3); font-weight: normal; font-size: 2rem;}
+.network_content2>ul:first-of-type>li>a{position: relative; margin-right: 3vw; color: rgba(235, 235, 235, 0.92); font-weight: normal; font-size: 2rem;}
 .network_content2>ul:first-of-type>li>a::after{content: ""; position: absolute; left: 0; bottom: -1vw; width: 0; height: 3px;
   background: #fff; opacity: 0; transition: all .3s ease 0s;}
 
