@@ -1,0 +1,129 @@
+/* pc */
+@media screen and (min-width:1025px) {
+  #wrap{width: 100vw;}
+  /* 헤더 */
+  #header{z-index: 100; position: fixed; width: 100vw; height: 150px; background: #fff; transition: height .6s ease; transition: margin-top .3s ease;}
+  #header.on{height: 365px; z-index: 100;}
+  #header.scrll{margin-top: -10vw;}
+  .header_wrap{width: 100vw; height: 150px; z-index: -100;}
+    .infowrap{width: 92vw; height: 50px; margin: 0 auto; background-color: #1428a0; border-radius: 0 0 5px 5px; transition: width .2s ease 0s;}
+    .infowrap.on{width: 100vw;}
+    .head_inner{display: flex; justify-content: space-between; width: 92vw; height: 100px; margin: 0 auto;}
+      .mob{display: none;}
+      .gnb{flex: 1; margin-left: 20px;}
+      .topMenu{display: flex; margin-top: 30px;}
+    .info_box{visibility: hidden; position: relative; top: -150px; width: 100vw; height: 100vw; background: rgba(0, 0, 0, 0.6); transition: visibility .3s ease 0s; overflow: hidden;}
+    .info_box.on{visibility: visible;}
+      .info_inner{position: relative; opacity: 0; width: 100%; min-width: 1580px; height: 50px; background: #5c69b7; display: flex; justify-content: space-around; padding-top: 3.7vw; padding-bottom: 1vw; transition: opacity .3s ease .3ss; transition: height .3s ease .3s; overflow: hidden;}
+      .info_box.on>.info_inner{height: 440px; opacity: 1;}
+  /* 검색박스 */
+  #srch{z-index: 200; visibility: hidden; position: fixed; width: 100%; opacity: 0; transition: all .3s ease 0s;}
+  #srch.on{visibility: visible; opacity: 1;} 
+    .srch_back{position: fixed; top: 150px; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);}
+    .srch_inner{position: fixed; top: 150px; width: 100%; background: #fff;}
+  /* 메인비주얼 */
+  #main_visual{position: relative; width: 92vw; margin: 0 auto; overflow: hidden;}
+    .auto_banner{position: relative; margin-top: 150px; width: 67.86vw; height: 35.4vw; border-radius: 15px; overflow: hidden;} 
+    .esg_banner{position: absolute; top: 150px; right: -22vw; overflow: hidden;}
+    .stock_info{position: absolute; bottom: 0; right: 0; width: 22vw; height: 7.5vw; padding: 1.6vw; border-radius: 15px;
+      box-sizing: border-box; background: #1c9c9e;}
+  /* 컨테이너 */
+  #container{width: 92vw; margin: 0 auto; padding: 2vw 0;}
+    .business{margin-top: 2vw;}
+    .activity{margin-top: 4vw; height: 78vw;}
+    .newsroom{position: relative; margin-top: 4vw; overflow: hidden;}
+    .network{position: relative; width: 100%; margin-top: 4vw;}
+    .relations{margin-top: 4vw;}
+  /* 푸터 */
+  #footer{position: relative; width: 100vw; height: 177px; background: #121212; margin-top: 60px;}
+    .foot_inner{width: 100vw; height: 100%;}
+      .foot_list{position: relative;}
+}
+
+/* tablet */
+@media screen and (min-width:769px) and (max-width:1024px) {
+body.scller{overflow: hidden;}
+#wrap{width: 100vw;}
+  /* 헤더 */
+  #header{z-index: 100; position: fixed; width: 100vw; height: 115px; background: #fff; transition: all .5s ease;}
+  #header.on{height: 365px; z-index: 100;}
+  #header.scrll{margin-top: -100vw;}
+  .header_wrap{width: 100vw; height: 150px; z-index: -100;}
+    .infowrap{width: 100vw; height: 50px; margin: 0 auto; background-color: #1428a0; border-radius: 0 0 5px 5px; transition: width .2s ease 0s;}
+    .infowrap.on{width: 100vw;}
+    .head_inner{display: flex; justify-content: space-between; width: 100vw; height: 65px; margin: 0 auto;}
+      .mob{z-index: 100; width: 300px; height: 100vh; padding: 0 10px; position: relative; background: #fff; overflow-y: auto; transform: translateX(310px); transition: transform .3s ease .5s;}
+      .mob.on{transform: translateX(0);}
+      .gnb{display: none;}
+      .topMenu{display: none;}
+    .info_box{visibility: hidden; position: relative; top: -115px; width: 100vw; height: 100vw; background: rgba(0, 0, 0, 0.6); transition: visibility .3s ease 0s; overflow: hidden;}
+    .info_box.on{visibility: visible;}
+      .info_inner{position: relative; opacity: 0; width: 100%; min-width: 1580px; height: 50px; background: #5c69b7; display: flex; justify-content: space-around; padding-top: 3.7vw; padding-bottom: 1vw; transition: opacity .3s ease .3ss; transition: height .3s ease .3s; overflow: hidden;}
+      .info_box.on>.info_inner{height: 440px; opacity: 1;}
+  /* 검색박스 */
+  #srch{z-index: 200; visibility: hidden; position: fixed; width: 100%; opacity: 0; transition: all .3s ease 0s;}
+  #srch.on{visibility: visible; opacity: 1;} 
+    .srch_back{position: fixed; top: 150px; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);}
+    .srch_inner{position: fixed; top: 150px; width: 100%; background: #fff;}
+  /* 메인비주얼 */
+  #main_visual{position: relative; width: 92vw; margin: 0 auto; overflow: hidden;}
+    .auto_banner{position: relative; margin-top: 115px; width: 67.86vw; height: 35.4vw; border-radius: 15px; overflow: hidden;} 
+    .esg_banner{position: absolute; top: 115px; right: -22vw; overflow: hidden;}
+    .stock_info{position: absolute; bottom: 0; right: 0; width: 22vw; height: 7.5vw; padding: 1.6vw; border-radius: 15px;
+      box-sizing: border-box; background: #1c9c9e;}
+  /* 컨테이너 */
+  #container{width: 92vw; margin: 0 auto; padding: 2vw 0;}
+    .business{margin-top: 2vw;}
+    .activity{margin-top: 4vw; height: 78vw;}
+    .newsroom{position: relative; margin-top: 4vw; overflow: hidden;}
+    .network{position: relative; width: 100%; margin-top: 4vw;}
+    .relations{margin-top: 4vw;}
+  /* 푸터 */
+  #footer{position: relative; width: 100vw; height: 177px; background: #121212; margin-top: 60px;}
+    .foot_inner{width: 100%; height: 100%;}
+      .foot_list{position: relative;}
+}
+
+@media screen and (max-width:768px) {
+  body.scller{overflow: hidden;}
+  #wrap{width: 100vw;}
+    /* 헤더 */
+    #header{z-index: 100; position: fixed; width: 100vw; height: 115px; background: #fff; transition: all .5s ease;}
+    #header.on{height: 365px; z-index: 100;}
+    #header.scrll{margin-top: -100vw;}
+    .header_wrap{width: 100vw; height: 150px; z-index: -100;}
+      .infowrap{width: 100vw; height: 50px; margin: 0 auto; background-color: #1428a0; border-radius: 0 0 5px 5px; transition: width .2s ease 0s;}
+      .infowrap.on{width: 100vw;}
+      .head_inner{display: flex; justify-content: space-between; width: 100vw; height: 65px; margin: 0 auto;}
+        .mob{z-index: 100; width: 300px; height: 100vh; padding: 0 10px; position: relative; background: #fff; overflow-y: auto; transform: translateX(310px); transition: transform .3s ease .5s;}
+        .mob.on{transform: translateX(0);}
+        .gnb{display: none;}
+        .topMenu{display: none;}
+      .info_box{visibility: hidden; position: relative; top: -115px; width: 100vw; height: 100vh; background: rgba(0, 0, 0, 0.6); transition: visibility .3s ease 0s; overflow: hidden;}
+      .info_box.on{visibility: visible; z-index: 110; overflow-y: auto;}
+        .info_inner{position: relative; opacity: 0; width: 100%; background: #5c69b7; display: flex; flex-direction: column; justify-content: space-around;
+          transition: opacity .3s ease .3ss; transition: height .3s ease .3s; overflow: hidden;}
+        .info_box.on>.info_inner{height: 200vh; opacity: 1; overflow-y: auto; padding-left: 40px;}
+    /* 검색박스 */
+    #srch{z-index: 200; visibility: hidden; position: fixed; width: 100%; opacity: 0; transition: all .3s ease 0s;}
+    #srch.on{visibility: visible; opacity: 1;} 
+      .srch_back{position: fixed; top: 150px; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);}
+      .srch_inner{position: fixed; top: 150px; width: 100%; background: #fff;}
+    /* 메인비주얼 */
+    #main_visual{position: relative; width: 92vw; height: 174vw; margin: 0 auto; overflow: hidden;} 
+      .auto_banner{position: relative; margin-top: 115px; width: 92vw; height: 70.3vw; border-radius: 15px; overflow: hidden;} 
+      .esg_banner{margin-top: 28vw; width: 92vw; overflow: hidden;}
+      .stock_info{margin-top: -84vw; width: 92vw; height: 22vw; padding: 5vw 20vw; border-radius: 15px;
+        box-sizing: border-box; background: #1c9c9e;}
+    /* 컨테이너 */
+    #container{width: 92vw; margin: 0 auto; padding: 2vw 0;}
+      .business{margin-top: 2vw;}
+      .activity{margin-top: 4vw; height: 190vw;}
+      .newsroom{position: relative; margin-top: 4vw; overflow: hidden;}
+      .network{position: relative; width: 100%; margin-top: 4vw;}
+      .relations{margin-top: 4vw;}
+    /* 푸터 */
+    #footer{position: relative; width: 100vw; height: 177px; background: #121212; margin-top: 60px;}
+      .foot_inner{width: 100%; height: 100%;}
+        .foot_list{position: relative;}
+}

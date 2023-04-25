@@ -1,0 +1,75 @@
+/* sub2.css */
+@import url(main.css);
+
+#container{position: relative; padding-top: 150px;}
+  .spot{padding-top: 50px;}
+    .content{width: 70vw; margin: 0 auto; position: relative;}
+
+/* spot */
+.spot>.path{font-weight: normal; font-size: 0.85em;}
+.path>img{padding-bottom: 5px;}
+.path>span{margin: 0 0.5vw;}
+.spot>h3{letter-spacing: 2px; text-align: center; font-weight: bold; margin-bottom: 100px;}
+
+/* content */
+.content>form p{font-size: 1.8em; font-weight: bold; color: #ccc; margin: 2vw 0;}
+.content>form>p:last-of-type{font-size: 1em; font-weight: normal; text-align: right; color: #000;
+  padding-bottom: 10px; border-bottom: 2px solid #000; margin-bottom: 30px;}
+.content>form b{color: #f00;}
+.content>form h4{font-size: 3em; font-weight: bold; margin-bottom: 70px;}
+.content>form h4 span{color: #1428a0;}
+
+.content>form>ul{display: flex; justify-content: space-around;}
+.content>form>ul>li{text-align: center; background: #f5f5f5; border-radius: 20px;}
+.content>form>ul:first-of-type>li{width: 31vw; height: 180px; margin-bottom: 80px;}
+.content>form ul>li:first-of-type{background: #1d7fbf;}
+.content>form ul>li:first-of-type>a{color: #fff;}
+.content>form>ul:nth-of-type(2)>li{width: 20vw; height: 140px; margin-bottom: 40px;}
+.content>form>ul:last-of-type>li{width: 15vw; height: 140px; margin-bottom: 80px;}
+.content>form>ul>li>a{display: block; padding: 2vw; font-size: 2em; line-height: 70px;}
+.content>form>ul:not(:first-of-type)>li>a{line-height: 70px;}
+.content>form>ul>li>a>span{display: block; font-size: 0.5em; line-height: 0;}
+
+.content>form>fieldset>dl{display: flex; flex-wrap: wrap;}
+.content>form>fieldset>dl dt{margin-right: 6.5vw; margin-top: 20px;}
+.content>form>fieldset>dl dd{position: relative;}
+
+.content>form>fieldset>dl dd:nth-of-type(1) input{width: 60vw; height: 50px; border: 1px solid #ccc; border-radius: 10px;}
+.content>form>fieldset>dl dd:nth-of-type(1) span{position: absolute; right: 1%; top: 35%; color: #666; font-weight: normal; font-size: 0.9em;}
+
+.content>form>fieldset>dl dt:nth-of-type(2){margin-top: 30px;}
+.content>form>fieldset>dl dd:nth-of-type(2) textarea{width: 60vw; margin-top: 20px; border: 1px solid #ccc; border-radius: 10px;
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';}
+.content>form>fieldset>dl dd:nth-of-type(2) span{position: absolute; right: 1%; bottom: 5%; color: #666; font-weight: normal; font-size: 0.9em;} 
+
+.content>form>fieldset>dl dt:nth-of-type(3){margin-right: 4.2vw; margin-top: 30px;}
+.content>form>fieldset>dl dd:nth-of-type(3) input:nth-of-type(1){width: 13vw; height: 40px; border: 1px solid #ccc; border-radius: 10px;}
+.content>form>fieldset>dl dd:nth-of-type(3) span{margin: 0 10px; color: #666;}
+.content>form>fieldset>dl dd:nth-of-type(3) input:nth-of-type(2){width: 10vw; height: 40px; border: 1px solid #ccc; border-radius: 10px;}
+.content>form>fieldset>dl dd:nth-of-type(3) select{width: 8vw; margin-left: 10px; height: 45px; border: 1px solid #ccc; border-radius: 10px;
+  margin-top: 20px; margin-right: 25vw;}
+/* .content>form>fieldset>dl dd:nth-of-type(3) select option{border: 1px solid #ccc; padding: 10px 20px;} */
+
+.content>form>fieldset>dl dt:nth-of-type(4){margin-right: 3.5vw; margin-top: 30px;}
+
+.content>form>fieldset>dl dd:nth-of-type(4){position: relative;}
+.content>form>fieldset>dl dd:nth-of-type(4) input{width: 10vw; height: 40px; border: 1px solid #ccc; border-radius: 10px; margin-right: 0.5vw;}
+.content>form>fieldset>dl dd:nth-of-type(4) input:nth-of-type(1){background: #f5f5f5;}
+.content>form>fieldset>dl dd:nth-of-type(4) a{display: inline-block; margin-top: 20px; width: 67px; height: 20px; border: 1px solid #ccc; padding: 15px 50px;
+  font-size: 0.8em; border-radius: 20px; margin-right: 30vw;}
+.content>form>fieldset>dl dd:nth-of-type(4) a img{width: 20px; height: 20px; padding-right: -10px;}
+
+.content>form>fieldset>dl dt:nth-of-type(5){margin-right: 2vw;}
+.content>form>fieldset>dl dd:nth-of-type(5){margin-top: 20px;}
+.content>form>fieldset>dl dd:nth-of-type(5) span{font-weight: normal;}
+.content>form>fieldset>dl dd:nth-of-type(5) ul{background: #f5f5f5; padding: 30px; border-radius: 10px; margin: 10px 0; margin-right: 5vw; width: 50vw; height: 130px;}
+.content>form>fieldset>dl dd:nth-of-type(5) ul li{background-color: #f5f5f5; list-style: disc; margin: 10px 20px; font-weight: normal; font-size: 0.8em;}
+.content>form>fieldset>dl dd:nth-of-type(5) small{position: absolute; left: 1.5vw; bottom: 55px; font-weight: 300; color: #666;}
+
+.content>form>fieldset>dl dd:nth-of-type(6) div{width: 70vw; margin-top: 30px;}
+.content>form>fieldset>dl dd:nth-of-type(6) div p{display: inline-block; font-size: 1.3em; color: #000; margin: 0; margin-left: 10vw; margin-right: 30vw;}
+.content>form>fieldset>dl dd:nth-of-type(6) div label{margin-right: 1vw; font-weight: normal;}
+.content>form>fieldset>dl dd:nth-of-type(6) div label input[type="radio"]:checked{background-color: #1428a0;}
+
+.content>form>fieldset>button{position: relative; left: 45%; background: #fff; border: 1px solid #ccc; border-radius: 10px;
+  padding: 10px 30px; margin-top: 40px; font-size: 1.5em; font-family: 'Spoqa Han Sans Neo', 'sans-serif'; cursor: pointer;}

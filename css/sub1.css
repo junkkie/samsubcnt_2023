@@ -1,0 +1,37 @@
+/* sub1.css */
+@import url(main.css);
+
+/* layout */
+#container{width: 80vw; margin: 0 auto;}
+  .spot{width: 100%; padding-top: 210px;}
+    .content1{width: 70vw; margin: 0 auto;}
+      .table{width: 100%;}
+    .page{display: flex; width: 44vw; margin: 50px auto;}
+    .content2{}
+
+/* spot */
+.spot>.path{font-weight: normal; font-size: 0.85em; margin-bottom: 30px;}
+.spot>.path span{margin: 0 0.5vw;}
+.spot>h3{letter-spacing: 2px; text-align: center; font-weight: bold; margin-bottom: 100px}
+.spot>p:last-of-type{text-align: right; margin-right: 5vw; margin-bottom: 20px;}
+.spot>p:last-of-type>a{font-weight: normal; color: #666; padding: 10px 2vw; border: 1px solid #ccc; border-radius: 10px;
+  background: url(../img/Vector.png) no-repeat 85% 50%; background-size: 1em; padding-right: 3vw;}
+
+/* content1 */
+.table>table{width: 100%; border-top: 2px solid #000;}
+.table>table th,.table>table td{border-bottom: 1px solid #ccc; padding: 25px; font-weight: normal;}
+.table>table th{font-weight: bold;}
+
+.page a{line-height: 50px;}
+.page a:nth-of-type(1),.page a:nth-of-type(2){padding-bottom: 5px;}
+.page a img{margin: 0 0.3vw;}
+.page>ol{display: flex; align-items: center; margin: 0 2vw;}
+.page>ol>li>a{font-size: 2em; color: #666; font-weight: normal; margin: 0 1vw;}
+.page>ol>li.on>a{color: #1428a0;}
+.page .nextPg, .page .lastPg{transform: rotate(180deg);}
+
+/* content2 */
+.content2>ul{width: 80vw; display: flex; justify-content: space-between; flex-wrap: wrap;}
+.content2>ul>li{margin-top: 30px;}
+.content2>ul>li>a{display: block; width: 39vw; height: 120px;border: 1px solid #ccc; border-radius: 10px;
+  padding-left: 2vw; box-sizing: border-box; font-size: 1.2em; line-height: 120px;}

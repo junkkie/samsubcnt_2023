@@ -1,0 +1,92 @@
+/* pc */
+@media screen and (min-width:1025px) {
+  /* footer */
+  .foot_inner>ul{display: flex; margin-left: 60px;}
+  .foot_inner>ul>li{position: relative; margin-right: 20px; padding-top: 40px;}
+  .foot_inner>ul>li>a{color: #fff; font-size: 0.85em; font-weight: normal;}
+  .foot_inner>ul>li:nth-of-type(3)>a{color: #299be5;}
+  .foot_inner>ul>li:nth-of-type(4)>ul{visibility: hidden; position: absolute; top: -85px; left: -35px; width: 120px; padding: 10px; box-sizing: border-box;
+    background: #121212; border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.2); opacity: 0; transition: all .3s ease 0s;}
+  .foot_inner>ul>li:nth-of-type(4).on>ul{visibility: visible; top: -130px; opacity: 1;}
+  .foot_inner>ul>li:nth-of-type(4)>ul>li{margin: 20px 0; text-align: center;}
+  .foot_inner>ul>li:nth-of-type(4)>ul>li>a{color: #fff; font-weight: normal; font-size: 0.85em;}
+
+  .foot_inner>p{color: rgba(255, 255, 255, 0.3); font-weight: 300; font-size: 0.85em; margin: 20px 60px; letter-spacing: -0.5px;}
+
+  .foot_list>a{display: block; position: absolute; right: 60px; bottom: 30px; padding: 10px 30px; color: #fff; font-size: 0.9em; font-weight: normal;
+    border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 10px;}
+  .foot_list>a.on{border-radius: 0 0 10px 10px;}
+  .foot_list>a>i{margin-left: 10px;}
+
+  .foot_list>div{visibility: hidden; position: absolute; right: 60px; bottom: 70px; height: 10px; background: #121212; border-radius: 10px 10px 0 0;
+    overflow: scroll; padding: 20px 30.5px; box-sizing: border-box; opacity: 0; border: 1px solid rgba(255, 255, 255, 0.2); transition: all .3s ease 0s;}
+  .foot_list>div.on{visibility: visible; height: 350px; opacity: 1;}
+  .foot_list>div::-webkit-scrollbar{width: 6px; height: 0; border-radius: 0 10px 0 0;}
+  .foot_list>div::-webkit-scrollbar-thumb{background: #fff; border-radius: 10px;}
+  .foot_list>div::-webkit-scrollbar-track{color: #121212;}
+  .foot_list>div>ul>li{font-size: 0.7em; font-weight: normal; color: #ccc; margin: 10px 0;}
+  .foot_list>div>ul>li>ul>li{margin: 10px 0px; color: #fff;}
+  .foot_list>div>ul>li>ul>li>a{font-size: 13px; font-weight: 500; color: #fff;}
+}
+
+/* tablet */
+@media screen and (min-width:769px) and (max-width:1024px) {
+  /* footer */
+  .foot_inner>ul{display: flex; margin-left: 60px;}
+  .foot_inner>ul>li{position: relative; margin-right: 20px; padding-top: 40px;}
+  .foot_inner>ul>li>a{color: #fff; font-size: 0.85em; font-weight: normal;}
+  .foot_inner>ul>li:nth-of-type(3)>a{color: #299be5;}
+  .foot_inner>ul>li:nth-of-type(4)>ul{visibility: hidden; position: absolute; top: -85px; left: -35px; width: 120px; padding: 10px; box-sizing: border-box;
+    background: #121212; border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.2); opacity: 0; transition: all .3s ease 0s;}
+  .foot_inner>ul>li:nth-of-type(4).on>ul{visibility: visible; top: -130px; opacity: 1;}
+  .foot_inner>ul>li:nth-of-type(4)>ul>li{margin: 20px 0; text-align: center;}
+  .foot_inner>ul>li:nth-of-type(4)>ul>li>a{color: #fff; font-weight: normal; font-size: 0.85em;}
+
+  .foot_inner>p{color: rgba(255, 255, 255, 0.3); font-weight: 300; font-size: 0.85em; margin: 20px 60px; letter-spacing: -0.5px;}
+
+  .foot_list>a{display: block; position: absolute; right: 60px; bottom: 30px; padding: 10px 30px; color: #fff; font-size: 0.9em; font-weight: normal;
+    border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 10px;}
+  .foot_list>a.on{border-radius: 0 0 10px 10px;}
+  .foot_list>a>i{margin-left: 10px;}
+
+  .foot_list>div{visibility: hidden; position: absolute; right: 60px; bottom: 70px; height: 10px; background: #121212; border-radius: 10px 10px 0 0;
+    overflow: scroll; padding: 20px 30.5px; box-sizing: border-box; opacity: 0; border: 1px solid rgba(255, 255, 255, 0.2); transition: all .3s ease 0s;}
+  .foot_list>div.on{visibility: visible; height: 350px; opacity: 1;}
+  .foot_list>div::-webkit-scrollbar{width: 6px; height: 0; border-radius: 0 10px 0 0;}
+  .foot_list>div::-webkit-scrollbar-thumb{background: #fff; border-radius: 10px;}
+  .foot_list>div::-webkit-scrollbar-track{color: #121212;}
+  .foot_list>div>ul>li{font-size: 0.7em; font-weight: normal; color: #ccc; margin: 10px 0;}
+  .foot_list>div>ul>li>ul>li{margin: 10px 0px; color: #fff;}
+  .foot_list>div>ul>li>ul>li>a{font-size: 13px; font-weight: 500; color: #fff;}
+}
+
+/* mobile */
+@media screen and (max-width:768px) {
+  /* footer */
+  .foot_inner>ul{display: flex; margin-left: 60px;}
+  .foot_inner>ul>li{position: relative; margin-right: 20px; padding-top: 40px;}
+  .foot_inner>ul>li>a{color: #fff; font-size: 0.85em; font-weight: normal;}
+  .foot_inner>ul>li:nth-of-type(3)>a{color: #299be5;}
+  .foot_inner>ul>li:nth-of-type(4)>ul{visibility: hidden; position: absolute; top: -85px; left: -35px; width: 120px; padding: 10px; box-sizing: border-box;
+    background: #121212; border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.2); opacity: 0; transition: all .3s ease 0s;}
+  .foot_inner>ul>li:nth-of-type(4).on>ul{visibility: visible; top: -130px; opacity: 1;}
+  .foot_inner>ul>li:nth-of-type(4)>ul>li{margin: 20px 0; text-align: center;}
+  .foot_inner>ul>li:nth-of-type(4)>ul>li>a{color: #fff; font-weight: normal; font-size: 0.85em;}
+
+  .foot_inner>p{color: rgba(255, 255, 255, 0.3); font-weight: 300; font-size: 0.85em; margin: 20px 60px; letter-spacing: -0.5px;}
+
+  .foot_list>a{display: block; width: 164.98px; margin-left: 7.5vw; padding: 10px 30px; box-sizing: border-box; color: #fff; font-size: 0.9em; font-weight: normal;
+    border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 10px;}
+  .foot_list>a.on{border-radius: 0 0 10px 10px;}
+  .foot_list>a>i{margin-left: 10px;}
+
+  .foot_list>div{visibility: hidden; position: absolute; right: 60px; bottom: 70px; height: 10px; background: #121212; border-radius: 10px 10px 0 0;
+    overflow: scroll; padding: 20px 30.5px; box-sizing: border-box; opacity: 0; border: 1px solid rgba(255, 255, 255, 0.2); transition: all .3s ease 0s;}
+  .foot_list>div.on{visibility: visible; height: 350px; opacity: 1;}
+  .foot_list>div::-webkit-scrollbar{width: 6px; height: 0; border-radius: 0 10px 0 0;}
+  .foot_list>div::-webkit-scrollbar-thumb{background: #fff; border-radius: 10px;}
+  .foot_list>div::-webkit-scrollbar-track{color: #121212;}
+  .foot_list>div>ul>li{font-size: 0.7em; font-weight: normal; color: #ccc; margin: 10px 0;}
+  .foot_list>div>ul>li>ul>li{margin: 10px 0px; color: #fff;}
+  .foot_list>div>ul>li>ul>li>a{font-size: 13px; font-weight: 500; color: #fff;}
+}
