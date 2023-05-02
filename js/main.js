@@ -8,6 +8,12 @@ window.addEventListener("load", () => {
     list[index].classList.add('on');
   }//양념장
 
+  //h1
+  const logo = document.querySelector(".logo")
+  logo.addEventListener("click", () => {
+    location.href= 'index.html';
+  })
+
   /// key info 클릭시 info box 노출
   // close 버튼 클릭시 box 닫힘
   const infoBtn = document.querySelector(".info_list>a");
@@ -41,7 +47,7 @@ window.addEventListener("load", () => {
   /// info1 백그라운드
   const info1lis = document.querySelectorAll(".info1>ul>li");
   for(let i=0; i<info1lis.length; i++){
-    info1lis[i].style.background = `url(../img/tb${i+1}.jpg) no-repeat 0 0`;
+    info1lis[i].style.background = `url(img/tb${i+1}.jpg) no-repeat 0 0`;
     info1lis[i].style.backgroundPosition = 'center';
     info1lis[i].style.backgroundSize = 'cover';
     info1lis[i].style.backgroundSize = '100%';
@@ -58,7 +64,7 @@ window.addEventListener("load", () => {
   const info4lis = document.querySelectorAll(".info4>ul>li>a>span");
 
   for(let i=0; i<info4lis.length; i++){
-    info4lis[i].style.background = `url(../img/i${i+1}.png) no-repeat 0 0`
+    info4lis[i].style.background = `url(img/i${i+1}.png) no-repeat 0 0`
     info4lis[i].style.backgroundSize = 'cover';
   }
 
@@ -77,6 +83,20 @@ window.addEventListener("load", () => {
       gnbli[l].querySelector("div").classList.remove("on");
     })
   }
+
+  //gnb 메뉴 클릭 시 서브페이지로 이동
+  for(let i=0; i<gnbli.length; i++){
+    if (i % 2 === 0) { // 짝수번째
+      gnbli[i].addEventListener("click", () => {
+        location.href = "sub2.html";
+      });
+    } else { // 홀수번째
+      gnbli[i].addEventListener("click", () => {
+        location.href = "sub1.html";
+      });
+    }
+  }
+
 
   // gnb 하위 li에 마우스 올리면 파란배경
   const gnb__li = document.querySelectorAll(".gnb>ul>li>div>ul>li")
@@ -223,7 +243,7 @@ window.addEventListener("load", () => {
   const esg_banner = document.querySelector(".esg_banner");
 
   for(let m=0; m<esg.length; m++){  
-    esg[m].style.background = `url(../img/esg${m+1}.jpg) no-repeat center/cover`;
+    esg[m].style.background = `url(img/esg${m+1}.jpg) no-repeat center/cover`;
     esg[m].style.backgroundSize = '105%';
     esg[m].style.transition = 'background-size 0.3s ease-out';
     esg_banner.addEventListener("mouseenter",()=>{
@@ -355,7 +375,7 @@ window.addEventListener("load", () => {
   const newsImg = document.querySelectorAll(".cards>ul>li");
 
   for(let c=0; c<newsImg.length; c++){
-    newsImg[c].style.background = `url(../img/newsroom${c+1}.jpg) no-repeat center/cover`;
+    newsImg[c].style.background = `url(img/newsroom${c+1}.jpg) no-repeat center/cover`;
   }
 
   //newsroom 첫 li 클릭하면 변화
@@ -424,7 +444,7 @@ window.addEventListener("load", () => {
   const relImg = document.querySelectorAll(".relations>ul>li");
 
   for(let s=0; s<relImg.length; s++){
-    relImg[s].style.background = `url(../img/investor${s+1}.png) no-repeat 92% 50%`;
+    relImg[s].style.background = `url(img/investor${s+1}.png) no-repeat 92% 50%`;
   }
 
 
@@ -504,7 +524,7 @@ window.addEventListener("load", () => {
   const sub1Li = document.querySelectorAll(".content2>ul>li");
 
   for(let i=0; i<sub1Li.length; i++){
-    sub1Li[i].style.background = `url(../img/linkbtm_0${i+1}.png) no-repeat 93% 50%`;
+    sub1Li[i].style.background = `url(./img/linkbtm_0${i+1}.png) no-repeat 93% 50%`;
   }
 
   //table 페이지 숫자 클릭 이벤트
@@ -556,4 +576,4 @@ window.addEventListener("load", () => {
       }
     })
   }
-})
+});

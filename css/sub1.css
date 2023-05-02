@@ -31,7 +31,7 @@
 .page .nextPg, .page .lastPg{transform: rotate(180deg);}
 
 /* content2 */
-.content2>ul{width: 80vw; display: flex; justify-content: space-between; flex-wrap: wrap;}
+.content2>ul{width: 80vw; display: flex; justify-content: space-between; flex-wrap: wrap; margin: 0 auto;}
 .content2>ul>li{margin-top: 30px;}
 .content2>ul>li>a{display: block; width: 39vw; height: 120px;border: 1px solid #ccc; border-radius: 10px;
   padding-left: 2vw; box-sizing: border-box; font-size: 1.2em; line-height: 120px;}
